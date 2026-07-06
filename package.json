@@ -1,0 +1,22 @@
+{
+  "name": "telegram-discord-forwarder",
+  "version": "1.0.0",
+  "description": "Forward telegram messages to discord channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "discord",
+    "forwarder",
+    "bot"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "telegram": "^2.26.1"
+  }
+}
